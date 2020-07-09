@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;   
+}
+
+
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    min-height: 100vh;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.searchForm{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.searchBar{
+    width:40%;
+    border:none;
+    outline: none;
+    padding:10px;
+}
+
+.searchButton{
+    background-color: #6f79a8;
+    outline: none;
+    border:none;
+    padding:10px 20px;
+    color:white;
+}
+
+.recipe{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
