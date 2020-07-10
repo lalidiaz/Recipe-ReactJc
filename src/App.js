@@ -10,7 +10,7 @@ const App = () => {
 
   const [recipes, setRecipes] = useState([]);//create state
   const [search, setSearch] = useState("");//create state
-  const [query, setQuery] = useState("brocoli") //only when I click the button i want it to search
+  const [query, setQuery] = useState("carrot") //only when I click the button i want it to search
 
 
   useEffect( () => {
@@ -38,6 +38,7 @@ setSearch("");
 
   return (
     <div className='App'>
+      <h1>Write the main ingredient and enjoy the recipes</h1>
       <form onSubmit={getSearch} className='searchForm'>
         <input onChange={updateSearch} className='searchBar' type='text' value={search}/>
         <button className='searchButton' type='submit'>Search</button>
